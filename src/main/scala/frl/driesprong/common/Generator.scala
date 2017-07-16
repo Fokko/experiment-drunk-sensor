@@ -1,6 +1,5 @@
 package frl.driesprong.common
 
-import frl.driesprong.Application.getNowInSeconds
 import frl.driesprong.Config
 import frl.driesprong.definitions.{GroundTruth, Message}
 

@@ -9,7 +9,7 @@ Run a local instance of [Wurstmeister Kafka/Zookeeper](https://hub.docker.com/r/
 KAFKA_ADVERTISED_HOST_NAME: 192.168.192.175
 KAFKA_CREATE_TOPICS: "datastream:1:1,response:1:1"
 ```
-Your This IP needs to be your own. The topics need to be pre-allocated otherwise something goes wrong with the assignment of the topic leader. Now you can start the project:
+This IP needs to be your own. The topics need to be pre-allocated otherwise something goes wrong with the assignment of the topic leader. Now you can start the project:
 
 ```
 sbt run
