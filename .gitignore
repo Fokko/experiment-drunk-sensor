@@ -1,0 +1,18 @@
+# Domino API gitignore
+# You should add all rules here instead of any additional .gitignore files
+
+# IDE's
+.idea/
+*.iml
+
+# API target
+target/*
+!/target/.domino-keep
+
+# Temporary directories
+tmp/*
+!/tmp/.domino-keep
+
+!tmp/.domino-keep
+target/
+.DS_Store
